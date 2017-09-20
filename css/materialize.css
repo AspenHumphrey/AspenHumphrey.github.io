@@ -1,9 +1,69 @@
-.h1 {
+.parallax-container {
+  height: 50vh;
+}
+
+html, h1, h3, h5 {
   font-family: 'Merienda One', cursive;
   color: black;
 }
 
-.parallax-container {
-  height: 100vh;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
+.shadow {
+  text-shadow: 3px 9px 20px #888888;
+  opacity: 1;
+}
+
+h1, h3 {
+  text-shadow: 3px 5px 15px #888888;
+}
+
+p, span, a, form {
+  font-size: 1.5em;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav {
+  color: black;
+  max-height: 10%;
+
+}
+
+/* label focus color */
+.input-field input:focus + label {
+  color: black !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important
+}
+
+.aspen {
+  max-width: 150px;
+  max-height: 170px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.pageFooter {
+  margin-top: 10px;
+}
+
+.footer-copyright {
+  text-align: center;
+  max-height: 10%;
+  max-width: 100%;
+}
