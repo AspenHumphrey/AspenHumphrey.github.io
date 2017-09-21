@@ -1,11 +1,15 @@
 .parallax-container {
-  height: 50vh;
+  height: 70vh;
 }
 
 h1, h3, h5 {
   font-family: 'Merienda One', cursive;
   color: black;
-  text-shadow: 3px 5px 15px #888888;
+  text-shadow: 3px 5px 15px #838080;
+}
+
+h3 {
+  padding-left: 15px;
 }
 
 body {
@@ -16,49 +20,30 @@ body {
   text-align: center;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
+  background-image: url("/images/rust.jpg");
+  background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .shadow {
-  text-shadow: 3px 9px 20px #888888;
-  opacity: 1;
-}
-
-.container {
-  margin
+  text-shadow: 3px 9px 20px #A06969;
 }
 
 .nav {
-  color: black;
+  color: #000000;
   max-height: 10%;
 }
 
-.blur-box {
-  background-color:#ffe0b2;
-  box-shadow: 0 0 5px 10px #ffe0b2;
-}
-
-.blurBox {
-  background-color:#ffab91;
-  box-shadow: 0 0 5px 10px #ffab91;
-}
-
-/* label focus color */
-.input-field input:focus + label {
-  color: black;
-}
-/* label underline focus color */
-.row .input-field input:focus {
-  border-bottom: 1px solid black;
-  box-shadow: 0 1px 0 0 black;
+.container {
+  box-shadow: 0 0 5px 5px #A06969;
+  opacity: 0.85;
 }
 
 .aspen {
   max-width: 150px;
   max-height: 170px;
-}
-
-.btn {
-  margin-bottom: 10px;
 }
 
 .footer-copyright {
