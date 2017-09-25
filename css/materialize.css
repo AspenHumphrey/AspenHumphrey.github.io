@@ -2,6 +2,10 @@
   height: 70vh;
 }
 
+/* .parallax {
+  opacity: 0.9;
+} */
+
 h1, h3, h5 {
   font-family: 'Merienda One', cursive;
   color: black;
@@ -25,6 +29,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.9;
 }
 
 .shadow {
@@ -38,7 +43,7 @@ body {
 
 .container {
   box-shadow: 0 0 5px 5px #A06969;
-  opacity: 0.85;
+  opacity: 0.99h;
 }
 
 .aspen {
