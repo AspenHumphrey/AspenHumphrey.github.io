@@ -2,14 +2,12 @@
   height: 70vh;
 }
 
-/* .parallax {
-  opacity: 0.9;
-} */
+.parallax
 
 h1, h3, h5 {
   font-family: 'Merienda One', cursive;
   color: black;
-  text-shadow: 3px 5px 15px #838080;
+  text-shadow: 3px 5px 15px black;
 }
 
 h3 {
@@ -20,30 +18,35 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
-  background-image: url("/images/rust.jpg");
-  background-size: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.9;
+  background-color: grey-lighten 5;
 }
 
 .shadow {
-  text-shadow: 3px 9px 20px #A06969;
+  text-shadow: 3px 9px 20px grey;
 }
 
 .nav {
   color: #000000;
   max-height: 10%;
+
 }
 
 .container {
-  box-shadow: 0 0 5px 5px #A06969;
-  opacity: 0.99h;
+  box-shadow: 0 0 3px 3px #3F3E3E;
+  opacity: 0.85;
+}
+
+.containerImg {
+  background-image: url("../images/purple.jpg");
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: calc((100% - 980px) * 0.5);
 }
 
 .aspen {
@@ -58,5 +61,5 @@ body {
 }
 
 .footer {
-  margin-top: 25px;
+  margin-top: 10px;
 }
