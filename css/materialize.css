@@ -15,11 +15,11 @@
 }
 
 .touch {
-  height: 70vh;
+  height: 100vh;
 }
 h1, h2, h3, h5 {
   font-family: 'Merienda One', cursive;
-  color: white;
+  color:black;
 }
 
 .centerText{
@@ -68,8 +68,8 @@ body {
 }
 
 .aspen {
-  max-width: 150px;
-  max-height: 170px;
+  max-width: 300px;
+  max-height: 340px;
 }
 
 .footer-copyright {
