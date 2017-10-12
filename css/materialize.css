@@ -11,11 +11,11 @@
 }
 
 .projects {
-  height: 70vh;
+  height: 100vh;
 }
 
 .technologies {
-  height: 70vh;
+  height: 100vh;
 }
 
 h1, h2, h3, h5 {
@@ -25,17 +25,13 @@ h1, h2, h3, h5 {
 
 .centerText{
   position: absolute;
-  z-index: 2000;
-  top: 400px;
-  left: 400px;
+  z-index: 3000;
+  top: 350px;
+  left: 500px;
 }
 
 h3 {
   padding-left: 15px;
-}
-
-.shadow {
-  text-shadow: 2px, 2px, #ff0000;
 }
 
 body {
