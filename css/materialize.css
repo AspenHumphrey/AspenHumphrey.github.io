@@ -3,12 +3,30 @@
 }
 
 .about {
-  height: 50vh;
+  height: 100vh;
 }
 
-h1, h3, h5 {
+.projects {
+  height: 70vh;
+}
+
+.technologies {
+  height: 70vh;
+}
+
+.touch {
+  height: 70vh;
+}
+h1, h2, h3, h5 {
   font-family: 'Merienda One', cursive;
-  color: #004165;
+  color: white;
+}
+
+.centerText{
+  position: absolute;
+  z-index: 2000;
+  top: 400px;
+  left: 400px;
 }
 
 h3 {
@@ -23,7 +41,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  color: white;
+  color:black;
   text-align: center;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
@@ -34,6 +52,10 @@ body {
   color: #000000;
   background-color: rgba(255, 255, 255, 0.397);
   opacity: 0.1%;
+}
+
+.container{
+  background-color: white;
 }
 
 .containerImg {
