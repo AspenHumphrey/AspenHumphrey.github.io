@@ -6,6 +6,10 @@
   height: 100vh;
 }
 
+.aboutWords {
+  height: 50vh;
+}
+
 .projects {
   height: 70vh;
 }
@@ -14,9 +18,6 @@
   height: 70vh;
 }
 
-.touch {
-  height: 100vh;
-}
 h1, h2, h3, h5 {
   font-family: 'Merienda One', cursive;
   color:black;
