@@ -1,39 +1,38 @@
+/* parallax */
 .parallax-container {
   height: 100vh;
 }
 
-.about {
-  height: 100vh;
+.parallaxHeight {
+  height: 90vh;
 }
 
-.aboutWords {
-  height: 50vh;
+.aboutTextParallax {
+  height: 40vh;
 }
 
-.projects {
-  height: 100vh;
+.aboutText {
+  padding-top: 5%;
 }
 
-.technologies {
-  height: 100vh;
-}
-
+/* heading tags */
 h1, h2, h3, h5 {
   font-family: 'Merienda One', cursive;
   color:black;
-}
-
-.centerText{
-  position: absolute;
-  z-index: 3000;
-  top: 350px;
-  left: 500px;
 }
 
 h3 {
   padding-left: 15px;
 }
 
+/* navbar */
+.nav-wrapper {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.397);
+  opacity: 0.1%;
+}
+
+/* body */
 body {
   display: flex;
   min-height: 100vh;
@@ -45,12 +44,19 @@ body {
   background-color: grey-lighten 5;
 }
 
-.nav-wrapper {
-  color: #000000;
-  background-color: rgba(255, 255, 255, 0.397);
-  opacity: 0.1%;
+/* center text on parallax */
+.centerText{
+  position: absolute;
+  z-index: 3000;
+  top: 350px;
+  left: 500px;
 }
 
+.textShadow {
+  text-shadow: 3px 3px 5px black;
+}
+
+/* container */
 .container{
   background-color: white;
 }
@@ -64,11 +70,19 @@ body {
   left: calc((100% - 980px) * 0.5);
 }
 
+/* padding between parallax */
+.padding {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* portfolio picture */
 .aspen {
   max-width: 300px;
   max-height: 340px;
 }
 
+/* footer */
 .footer-copyright {
   text-align: center;
   max-height: 10%;
