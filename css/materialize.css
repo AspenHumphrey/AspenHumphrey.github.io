@@ -4,7 +4,7 @@
 }
 
 .parallaxHeight {
-  height: 90vh;
+  height: 80vh;
 }
 
 .aboutTextParallax {
@@ -28,9 +28,13 @@ h3 {
 /* navbar */
 .nav-wrapper {
   color: #000000;
-  background-color: rgba(255, 255, 255, 0.397);
+  background-color: rgba(255, 255, 255, 0.849);
   opacity: 0.1%;
   padding: 4px;
+}
+
+.size {
+  font-size: 25px;
 }
 
 /* body */
@@ -81,6 +85,32 @@ body {
 .aspen {
   max-width: 300px;
   max-height: 340px;
+}
+
+.paddingTop {
+  padding-top: 5%;
+}
+
+/* contact img */
+
+li {
+  display: inline-block;
+  align-items: center;
+}
+
+.fa-github, .fa-linkedin-square, .fa-envelope-open {
+  font-size: 50px;
+  color: black;
+}
+
+.fa:hover {
+  color: grey;
+}
+
+.paddingFifty li {
+  display: inline-block;
+  align-items: center;
+  padding: 50%;
 }
 
 /* footer */
