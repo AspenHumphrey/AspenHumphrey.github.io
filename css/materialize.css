@@ -11,18 +11,18 @@
   height: 40vh;
 }
 
-.aboutText {
-  padding-top: 5%;
-}
-
 /* heading tags */
-h1, h2, h3, h5 {
+h1, h2 {
   font-family: 'Merienda One', cursive;
   color:black;
 }
 
 h3 {
   padding-left: 15px;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 /* navbar */
@@ -61,18 +61,9 @@ body {
   text-shadow: 3px 3px 5px black;
 }
 
-/* container */
-.container{
-  background-color: white;
-}
-
-.containerImg {
-  background-image: url("../images/purple.jpg");
-  background-position: center;
-  background-size: cover;
-  top: 0;
-  bottom: 0;
-  left: calc((100% - 980px) * 0.5);
+/* carousel */
+.carousel {
+  max-height: 320px;
 }
 
 /* padding between parallax */
@@ -83,21 +74,16 @@ body {
 
 /* portfolio picture */
 .aspen {
-  max-width: 300px;
-  max-height: 340px;
+  max-width: 410px;
+  max-height: 450px;
 }
 
+/* padding before contact */
 .paddingTop {
   padding-top: 5%;
 }
 
 /* contact img */
-
-li {
-  display: inline-block;
-  align-items: center;
-}
-
 .fa-github, .fa-linkedin-square, .fa-envelope-open {
   font-size: 50px;
   color: black;
@@ -107,10 +93,10 @@ li {
   color: grey;
 }
 
-.paddingFifty li {
-  display: inline-block;
-  align-items: center;
-  padding: 50%;
+/* padding on font awesome links */
+.paddingFourty {
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 /* footer */
