@@ -1,0 +1,119 @@
+/* parallax */
+.parallax-container {
+  height: 100vh;
+}
+
+.parallaxHeight {
+  height: 85vh;
+}
+
+.aboutTextParallax {
+  height: 100vh;
+}
+
+/* heading tags */
+h1, h2 {
+  font-family: 'Merienda One', cursive;
+  color:black;
+}
+
+h3 {
+  padding-left: 15px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+/* navbar */
+.nav-wrapper {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.849);
+  opacity: 0.1%;
+  padding: 4px;
+}
+
+.largeText {
+  font-size: 25px;
+}
+
+.smallText {
+  font-size: 21px;
+}
+
+/* body */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color:black;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5em;
+  background-color: grey-lighten 5;
+}
+
+/* center text on parallax */
+.centerText{
+  position: absolute;
+  z-index: 3000;
+  top: 350px;
+  left: 500px;
+}
+
+.textShadow {
+  text-shadow: 3px 3px 5px black;
+}
+
+/* carousel */
+.carousel {
+  max-height: 320px;
+}
+
+/* padding between parallax */
+.padding {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* portfolio picture */
+.aspen {
+  max-width: 410px;
+  max-height: 450px;
+}
+
+/* padding before contact */
+.paddingTop {
+  padding-top: 5%;
+}
+
+/* contact img */
+.fa-github, .fa-linkedin-square, .fa-envelope-open {
+  font-size: 50px;
+  color: black;
+}
+
+.fa:hover {
+  color: grey;
+}
+
+.a:hover {
+  color: darkgrey;
+}
+
+/* padding on font awesome links */
+.paddingFourty {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+/* footer */
+.footer-copyright {
+  text-align: center;
+  max-height: 10%;
+  max-width: 100%;
+}
+
+.footer {
+  margin-top: 10px;
+}
